@@ -1,0 +1,15 @@
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/bin/Debug/net8.0/ServerApp
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/bin/Debug/net8.0/ServerApp.deps.json
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/bin/Debug/net8.0/ServerApp.runtimeconfig.json
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/bin/Debug/net8.0/ServerApp.dll
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/bin/Debug/net8.0/ServerApp.pdb
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/obj/Debug/net8.0/ServerApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/obj/Debug/net8.0/ServerApp.AssemblyInfoInputs.cache
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/obj/Debug/net8.0/ServerApp.AssemblyInfo.cs
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/obj/Debug/net8.0/ServerApp.csproj.CoreCompileInputs.cache
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/obj/Debug/net8.0/ServerApp.sourcelink.json
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/obj/Debug/net8.0/ServerApp.dll
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/obj/Debug/net8.0/refint/ServerApp.dll
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/obj/Debug/net8.0/ServerApp.pdb
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/obj/Debug/net8.0/ServerApp.genruntimeconfig.cache
+/home/mref/Documents/GitHub/CS/24. NP UDP/ServerApp/obj/Debug/net8.0/ref/ServerApp.dll
