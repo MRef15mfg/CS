@@ -1,0 +1,34 @@
+@model IReadOnlyList<Product>
+@{
+    ViewData["Title"] = "Каталог товарів";
+}
+
+<section class="hero">
+    <div>
+        <span class="eyebrow">ONLINE STORE</span>
+        <h1>Каталог товарів</h1>
+        <p>50 товарів у 10 категоріях. Обери товар, щоб переглянути детальну інформацію.</p>
+    </div>
+    <div class="hero-stat">
+        <strong>@Model.Count</strong>
+        <span>товарів</span>
+    </div>
+</section>
+
+<div class="grid">
+@foreach (var product in Model)
+{
+    <article class="card">
+        <div class="product-icon">@product.ImageUrl</div>
+        <div class="card-body">
+            <div class="category">@product.Category?.Name</div>
+            <h2>@product.Name</h2>
+            <p>@product.Description</p>
+            <div class="card-bottom">
+                <span class="price">@product.Price.ToString("0.00") €</span>
+                <a class="button" asp-controller="Products" asp-action="Details" asp-route-id="@product.Id">Детальніше</a>
+            </div>
+        </div>
+    </article>
+}
+</div>

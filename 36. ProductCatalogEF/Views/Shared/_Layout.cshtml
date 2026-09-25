@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Product Catalog</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header class="topbar">
+        <div class="container topbar-inner">
+            <a class="brand" asp-controller="Home" asp-action="Index">Product Catalog</a>
+            <a class="nav-link" asp-controller="Home" asp-action="Index">Головна</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">EF Core • ASP.NET Core MVC • SQLite</div>
+    </footer>
+</body>
+</html>

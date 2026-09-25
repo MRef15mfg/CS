@@ -1,0 +1,33 @@
+@model Product
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="back-wrap">
+    <a class="back-link" asp-controller="Home" asp-action="Index">← Повернутися до каталогу</a>
+</div>
+
+<section class="details">
+    <div class="details-visual">@Model.ImageUrl</div>
+    <div class="details-content">
+        <span class="eyebrow">ТОВАР #@Model.Id</span>
+        <h1>@Model.Name</h1>
+        <div class="detail-category">Категорія: @Model.Category?.Name</div>
+        <div class="detail-price">@Model.Price.ToString("0.00") €</div>
+        <p class="detail-description">@Model.Description</p>
+        <div class="info-box">
+            <div>
+                <span>Назва</span>
+                <strong>@Model.Name</strong>
+            </div>
+            <div>
+                <span>Категорія</span>
+                <strong>@Model.Category?.Name</strong>
+            </div>
+            <div>
+                <span>Ціна</span>
+                <strong>@Model.Price.ToString("0.00") €</strong>
+            </div>
+        </div>
+    </div>
+</section>
